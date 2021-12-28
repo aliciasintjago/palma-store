@@ -27,3 +27,15 @@
 .button {
     text-decoration: none;
 }
+
+@media (max-width: 1115px) {
+    .images {
+        transform: translateX(128px);
+    }
+}
+
+@media (max-width: 1000px) {
+    .images {
+        transform: translateX(178px);
+    }
+}
