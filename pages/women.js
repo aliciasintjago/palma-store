@@ -14,6 +14,7 @@ function Women() {
                     flexDirection: 'column',
                     paddingTop: '100px',
                 }}
+                className={styles.images}
             >
                 <div style={{
                         width: '1086px',
