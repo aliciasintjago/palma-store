@@ -1,4 +1,5 @@
 import Header from '../components/Navbar';
+import styles from '../styles.module.css';
 
 function Women() {
     return (
