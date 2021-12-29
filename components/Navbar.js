@@ -53,8 +53,7 @@ const Logo = styled.div`
         a {
             padding-right: 2rem;
         }
-    } 
-} 
+    }  
 `   
 
 const NavMenu = styled.div`
