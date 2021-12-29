@@ -1,3 +1,5 @@
+import styles from '../styles.module.css';
+
 export default function ProductTypeCovers() {
     return (
         <div className={styles.gallery}>
@@ -9,5 +11,3 @@ export default function ProductTypeCovers() {
         </div>    
     )
 }
-
-export default ProductTypeCovers;
