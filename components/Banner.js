@@ -61,11 +61,15 @@ const Container = styled.div`
     width: 100vw;
 `
 
-const WrapperTextOne = styled.div``
+const WrapperTextOne = styled.div`
+    @media (max-width: 376px) {
+        display: none;
+    }
+`
 
 const WrapperTextTwo = styled.div`
     @media (max-width: 376px) {
-        transform: translateY(-1.5em);
+        display: none;
     }
 `
 
