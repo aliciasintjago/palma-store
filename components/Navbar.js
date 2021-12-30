@@ -108,7 +108,7 @@ const NavMenu = styled.div`
         color: #000000;
         text-decoration: none;
         transition: font-weight .2s ease-in-out;
-        width: 60px;
+        width: 50px;
     }    
 
     a:hover {
