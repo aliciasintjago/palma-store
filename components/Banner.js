@@ -6,13 +6,17 @@ export default function Banner() {
     
     return (
         <Container>
-            <Image className="banner">    
-                <Fade left duration={1400}> 
-                    <div className={styles.text1}>Your Experience Is Your</div>
-                </Fade>
-                <Fade top duration={1200} delay={1400}>
-                    <div className={styles.text2}>Attention</div>
-                </Fade>
+            <Image className="banner">
+                <WrapperTextOne>
+                    <Fade left duration={1400}> 
+                        <div className={styles.text1}>Your Experience Is Your</div>
+                    </Fade>
+                </WrapperTextOne>
+                <WrapperTextTwo>
+                    <Fade top duration={1200} delay={1400}>
+                        <div className={styles.text2}>Attention</div>
+                    </Fade>
+                </WrapperTextTwo>
                 <ButtonGroup>
                     <a href='/women' className={styles.button}>
                         <Women>
@@ -55,6 +59,14 @@ const Image = styled.div`
 
 const Container = styled.div`
     width: 100vw;
+`
+
+const WrapperTextOne = styled.div``
+
+const WrapperTextTwo = styled.div`
+    @media (max-width: 376px) {
+        padding-top: 2em;
+    }
 `
 
 const ButtonGroup = styled.div`
