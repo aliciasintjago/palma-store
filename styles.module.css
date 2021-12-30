@@ -41,9 +41,8 @@
     /* -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3; */
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 25% 25% 25%;
     margin-top: 20px;
-    column-gap: 5px;
 }
 
 .gallery .pics {
