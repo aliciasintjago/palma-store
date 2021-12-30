@@ -38,12 +38,14 @@
 }
 
 .gallery {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-    width: 100%;
-    column-gap: 5px;
-    margin-top: 20px;
+    display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 10px 10px; 
+  grid-template-areas: 
+    ". . ."
+    ". . ."
+    ". . .";
 }
 
 .gallery .pics {
