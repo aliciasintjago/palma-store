@@ -51,6 +51,13 @@ const Logo = styled.div`
     }
     @media (max-width: 760px) {
         a {
+            text-decoration: none;
+            font-family: 'Alike';
+            font-size: 28px; 
+            color: #000000;
+            display: flex;
+            padding-right: 10.7rem;
+            width: 200px;
             transform: translateX(2rem);
         }
     }  
