@@ -95,6 +95,21 @@ const NavMenu = styled.div`
         transition: font-weight .2s ease-in-out;
         width: 60px;
     }
+    @media (max-width: 520px) {
+        a {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        letter-spacing: 1px;
+        padding-right: 8px;
+        padding-left: 20px;
+        flex-wrap: nowrap;
+        color: #000000;
+        text-decoration: none;
+        transition: font-weight .2s ease-in-out;
+        width: 60px;
+    }    
+    }
 
     a:hover {
         font-weight: 600;
