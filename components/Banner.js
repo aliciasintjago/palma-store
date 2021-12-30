@@ -87,7 +87,7 @@ const ButtonGroup = styled.div`
         -moz-column-count: 1;
         column-count: 1;
         place-items: center;
-        transform: translateX(4em);
+        transform: translateX(5em);
     }
     @media (max-width: 448px) {
         display: grid;
@@ -95,7 +95,7 @@ const ButtonGroup = styled.div`
         -moz-column-count: 1;
         column-count: 1;
         place-items: center;
-        transform: translateX(-2em);
+        transform: translateX(-1em);
     }
     @media (max-width: 376px) {
         display: grid;
@@ -103,15 +103,7 @@ const ButtonGroup = styled.div`
         -moz-column-count: 1;
         column-count: 1;
         place-items: center;
-        transform: translateX(-6em);
-    }
-    @media (max-width: 376px) {
-        display: grid;
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-        place-items: center;
-        transform: translateX(-27.5em);
+        transform: translateX(-3em);
     }
 `
 const Women = styled.div`
