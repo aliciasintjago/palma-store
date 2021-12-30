@@ -27,7 +27,6 @@ const Container = styled.div`
     padding: 0;
     z-index: 2;
     background-color: #ffffff;
-    font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
     a {
         display: flex;
