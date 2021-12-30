@@ -49,9 +49,9 @@ const Logo = styled.div`
         width: 500px;
         transform: translateX(120px);
     }
-    @media (max-width: 376px) {
+    @media (max-width: 760px) {
         a {
-            transform: translateX(-16rem);
+            transform: translateX(2rem);
         }
     }  
 `   
