@@ -41,8 +41,9 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    width: 95%;
     padding-top: 28px;
-    padding-left: 56px;
+    padding-left: 28px;
 }
 
 .gallery .pics {
