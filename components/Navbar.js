@@ -70,7 +70,7 @@ const Logo = styled.div`
             display: flex;
             padding-right: 10.7rem;
             width: 150px;
-            transform: translateX(-3.2rem);
+            transform: translateX(-2.8rem);
         }
     }  
 `   
@@ -108,7 +108,7 @@ const NavMenu = styled.div`
         color: #000000;
         text-decoration: none;
         transition: font-weight .2s ease-in-out;
-        width: 50px;
+        width: 55px;
     }    
 
     a:hover {
