@@ -49,10 +49,8 @@ const Logo = styled.div`
         width: 500px;
         transform: translateX(120px);
     }
-    @media (max-width: 500px) {
-        a {
-            padding-right: 2rem;
-        }
+    @media (max-width: 376px) {
+        transform: translateX(-6rem);
     }  
 `   
 
