@@ -68,7 +68,7 @@ const ButtonGroup = styled.div`
         flex-direction: column;
         justify-content: center;
         padding-top: 30px;
-        margin: 0 auto;
+        transform: translateX(-50%);
     }
 `
 const Women = styled.div`
