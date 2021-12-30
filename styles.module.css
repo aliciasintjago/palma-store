@@ -38,9 +38,9 @@
 }
 
 .gallery {
-    display: grid;
-    grid-template-rows: 310px 310px 310px;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 28px;
     max-height: 400px;
     max-width: 90%;
