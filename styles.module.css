@@ -45,7 +45,7 @@
     -moz-column-width: 33%;
     column-width: 33%; */
     margin-top: 20px;
-    column-gap: 20px;
+    column-gap: 15px;
 }
 
 .gallery .pics {
