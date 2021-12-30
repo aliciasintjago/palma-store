@@ -50,7 +50,9 @@ const Logo = styled.div`
         transform: translateX(120px);
     }
     @media (max-width: 376px) {
-        transform: translateX(-16rem);
+        a {
+            transform: translateX(-16rem);
+        }
     }  
 `   
 
