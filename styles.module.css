@@ -59,8 +59,8 @@
 }
 
 .pic {
-    width: 420px;
-    height: 372px;
+    width: 385px;
+    height: 341px;
     padding-bottom: 20px;
     object-fit: cover;    
 }
@@ -72,8 +72,8 @@
         column-count: 2;
     }
     .pic {
-        height: 420px;
-        width: 372px;
+        height: 385px;
+        width: 341px;
         padding-right: 10px;
     }
 }
