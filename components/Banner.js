@@ -48,7 +48,7 @@ const Image = styled.div`
     flex-direction: column;
     /* align-items: center; */
     /* position: relative; */
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
         background-attachment: scroll;
     }
 `
@@ -65,11 +65,16 @@ const ButtonGroup = styled.div`
     top: 55%;
     left: 20%;
     position: absolute;
-    @media (max-width: 768px) {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 30px;
+    @media (max-width: 1024px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+        place-items: center;
+    }
+    @media (max-width: 480px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
     }
 `
 const Women = styled.div`
