@@ -61,7 +61,7 @@ const Logo = styled.div`
             transform: translateX(2rem);
         }
     }
-    @media (max-width: 760px) {
+    @media (max-width: 520px) {
         a {
             text-decoration: none;
             font-family: 'Alike';
