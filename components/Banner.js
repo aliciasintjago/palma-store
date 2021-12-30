@@ -62,13 +62,13 @@ const Container = styled.div`
 `
 
 const WrapperTextOne = styled.div`
-    @media (max-width: 376px) {
+    @media (max-width: 1200px) {
         display: none;
     }
 `
 
 const WrapperTextTwo = styled.div`
-    @media (max-width: 376px) {
+    @media (max-width: 1200px) {
         display: none;
     }
 `
