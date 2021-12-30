@@ -71,6 +71,7 @@ const ButtonGroup = styled.div`
         -moz-column-count: 1;
         column-count: 1;
         place-items: center;
+        transform: translateX(13em);
     }
 `
 const Women = styled.div`
