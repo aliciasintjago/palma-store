@@ -16,12 +16,16 @@
 
 .text2 {
     position: absolute;
-    top: 48%;
-    left: 21.78%;
+    top: 40%;
+    left: 29.78%;
     font-family: 'Rajdhani';
     font-weight: 500;
     font-size: 27px;
     letter-spacing: 3px;
+    @media (max-width: 1100px) {
+        top: 48%;
+        left: 21.78%;
+    }
 }
 
 .button {
