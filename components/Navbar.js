@@ -95,6 +95,7 @@ const NavMenu = styled.div`
         transition: font-weight .2s ease-in-out;
         width: 60px;
     }
+    
     @media (max-width: 520px) {
         a {
         font-family: 'Rajdhani', sans-serif;
