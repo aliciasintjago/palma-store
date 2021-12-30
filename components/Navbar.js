@@ -40,7 +40,7 @@ const Logo = styled.div`
     flex: 3 0 auto;
     a {
         text-decoration: none;
-        font-family: 'Be Vietnam Pro', sans-serif;
+        font-family: 'Alike', sans-serif;
         font-size: 28px; 
         color: #000000; 
         letter-spacing: 3px;
@@ -52,7 +52,7 @@ const Logo = styled.div`
     @media (max-width: 760px) {
         a {
             text-decoration: none;
-            font-family: 'Be Vietnam Pro', sans-serif;
+            font-family: 'Alike', sans-serif;
             font-size: 28px; 
             color: #000000;
             display: flex;
@@ -64,7 +64,7 @@ const Logo = styled.div`
     @media (max-width: 520px) {
         a {
             text-decoration: none;
-            font-family: 'Be Vietnam Pro', sans-serif;
+            font-family: 'Alike', sans-serif;
             font-size: 28px; 
             color: #000000;
             display: flex;
