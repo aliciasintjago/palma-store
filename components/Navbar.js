@@ -109,7 +109,6 @@ const NavMenu = styled.div`
         transition: font-weight .2s ease-in-out;
         width: 60px;
     }    
-    }
 
     a:hover {
         font-weight: 600;
