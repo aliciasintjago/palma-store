@@ -44,6 +44,7 @@
     align-content: center;
     width: 88%;
     padding-top: 28px;
+    max-height: 420px;
 }
 
 .gallery .pics {
