@@ -60,6 +60,18 @@ const Logo = styled.div`
             width: 200px;
             transform: translateX(2rem);
         }
+    }
+    @media (max-width: 760px) {
+        a {
+            text-decoration: none;
+            font-family: 'Alike';
+            font-size: 28px; 
+            color: #000000;
+            display: flex;
+            padding-right: 10.7rem;
+            width: 150px;
+            transform: translateX(-4rem);
+        }
     }  
 `   
 
