@@ -40,7 +40,7 @@ const Logo = styled.div`
     flex: 3 0 auto;
     a {
         text-decoration: none;
-        font-family: 'Alike';
+        font-family: 'Be Vietnam Pro', sans-serif;
         font-size: 28px; 
         color: #000000; 
         letter-spacing: 3px;
@@ -52,7 +52,7 @@ const Logo = styled.div`
     @media (max-width: 760px) {
         a {
             text-decoration: none;
-            font-family: 'Alike';
+            font-family: 'Be Vietnam Pro', sans-serif;
             font-size: 28px; 
             color: #000000;
             display: flex;
@@ -64,13 +64,13 @@ const Logo = styled.div`
     @media (max-width: 520px) {
         a {
             text-decoration: none;
-            font-family: 'Alike';
+            font-family: 'Be Vietnam Pro', sans-serif;
             font-size: 28px; 
             color: #000000;
             display: flex;
             padding-right: 10.7rem;
             width: 150px;
-            transform: translateX(-3rem);
+            transform: translateX(-3.2rem);
         }
     }  
 `   
@@ -100,10 +100,10 @@ const NavMenu = styled.div`
         a {
         font-family: 'Rajdhani', sans-serif;
         font-weight: 400;
-        font-size: 22px;
+        font-size: 20px;
         letter-spacing: 1px;
-        padding-right: 8px;
-        padding-left: 20px;
+        padding-right: 2px;
+        padding-left: 10px;
         flex-wrap: nowrap;
         color: #000000;
         text-decoration: none;
