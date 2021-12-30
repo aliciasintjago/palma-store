@@ -86,6 +86,7 @@
         -webkit-column-width: 100%;
         -moz-column-width: 100%;
         column-width: 100%;
+        transform: translateY(-25em);
     }
     .pic {
         height: 370px;
