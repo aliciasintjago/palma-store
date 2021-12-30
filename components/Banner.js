@@ -103,7 +103,7 @@ const ButtonGroup = styled.div`
         -moz-column-count: 1;
         column-count: 1;
         place-items: center;
-        transform: translateX(4em);
+        transform: translateX(-0.5em);
     }
 `
 const Women = styled.div`
