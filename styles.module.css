@@ -41,9 +41,9 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 95%;
+    width: 88%;
     padding-top: 28px;
-    padding-left: 28px;
+    padding-left: 14px;
 }
 
 .gallery .pics {
@@ -60,7 +60,7 @@
     width: 385px;
     height: 341px;
     padding-bottom: 20px;
-    padding-right: 28px;
+    padding-right: 24px;
     object-fit: cover;    
 }
 
