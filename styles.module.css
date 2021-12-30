@@ -57,10 +57,10 @@
 }
 
 .pic {
-    width: 385px;
-    height: 341px;
+    width: 350px;
+    height: 310px;
     padding-bottom: 20px;
-    padding-right: 24px;
+    padding-right: 12px;
     object-fit: cover;    
 }
 
@@ -71,8 +71,8 @@
         column-count: 2;
     }
     .pic {
-        height: 385px;
-        width: 341px;
+        height: 350px;
+        width: 310px;
         padding-right: 10px;
     }
 }
