@@ -38,9 +38,8 @@
 }
 
 .gallery {
-    -webkit-column-count: 3;
-    column-count: 3;
-    display: flex;
+    display: grid;
+    grid-template-rows: 310px 310px 310px;
     justify-content: center;
     align-content: center;
     width: 88%;
