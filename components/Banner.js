@@ -79,7 +79,7 @@ const ButtonGroup = styled.div`
         -moz-column-count: 1;
         column-count: 1;
         place-items: center;
-        transform: translateX(7em);
+        transform: translateX(8em);
     }
     @media (max-width: 736px) {
         display: grid;
@@ -87,7 +87,7 @@ const ButtonGroup = styled.div`
         -moz-column-count: 1;
         column-count: 1;
         place-items: center;
-        transform: translateX(-5em);
+        transform: translateX(4em);
     }
     @media (max-width: 448px) {
         display: grid;
@@ -95,15 +95,15 @@ const ButtonGroup = styled.div`
         -moz-column-count: 1;
         column-count: 1;
         place-items: center;
-        transform: translateX(-23em);
+        transform: translateX(-2em);
     }
-    @media (max-width: 448px) {
+    @media (max-width: 376px) {
         display: grid;
         -webkit-column-count: 1;
         -moz-column-count: 1;
         column-count: 1;
         place-items: center;
-        transform: translateX(-23em);
+        transform: translateX(-6em);
     }
     @media (max-width: 376px) {
         display: grid;
