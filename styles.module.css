@@ -24,7 +24,7 @@
     letter-spacing: 3px;
     @media (max-width: 1100px) {
         position: absolute;
-        top: 48%;
+        transform: translateY(-24px);
         left: 29.78%;
         font-family: 'Rajdhani';
         font-weight: 500;
