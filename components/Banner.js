@@ -61,14 +61,15 @@ const ButtonGroup = styled.div`
     display: flex;
     text-align: center;
     justify-content: center;
+    align-items: center;
     top: 55%;
     left: 20%;
     position: absolute;
     @media (max-width: 768px) {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         padding-top: 30px;
-        transform: translateX(-50%);
     }
 `
 const Women = styled.div`
