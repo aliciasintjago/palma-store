@@ -73,6 +73,46 @@ const ButtonGroup = styled.div`
         place-items: center;
         transform: translateX(13em);
     }
+    @media (max-width: 928px) {
+        display: grid;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        place-items: center;
+        transform: translateX(7em);
+    }
+    @media (max-width: 736px) {
+        display: grid;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        place-items: center;
+        transform: translateX(-5em);
+    }
+    @media (max-width: 448px) {
+        display: grid;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        place-items: center;
+        transform: translateX(-23em);
+    }
+    @media (max-width: 448px) {
+        display: grid;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        place-items: center;
+        transform: translateX(-23em);
+    }
+    @media (max-width: 376px) {
+        display: grid;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        place-items: center;
+        transform: translateX(-27.5em);
+    }
 `
 const Women = styled.div`
     background-color: #ffffff;
