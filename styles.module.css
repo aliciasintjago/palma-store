@@ -40,8 +40,7 @@
 .gallery {
     display: grid;
     grid-template-rows: 310px 310px 310px;
-    justify-content: center;
-    align-content: center;
+    place-items: center;
     width: 88%;
     padding-top: 28px;
     max-height: 420px;
