@@ -67,13 +67,9 @@ const ButtonGroup = styled.div`
     position: absolute;
     @media (max-width: 1024px) {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10px;
-        place-items: center;
-    }
-    @media (max-width: 480px) {
-        display: grid;
-        grid-template-columns: 1fr;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
         place-items: center;
     }
 `
