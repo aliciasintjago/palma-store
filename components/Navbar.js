@@ -70,7 +70,7 @@ const Logo = styled.div`
             display: flex;
             padding-right: 10.7rem;
             width: 150px;
-            transform: translateX(-1.3rem);
+            transform: translateX(-0.5rem);
         }
     }  
 `   
