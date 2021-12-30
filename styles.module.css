@@ -41,9 +41,9 @@
     display: grid;
     grid-template-rows: 310px 310px 310px;
     place-items: center;
-    width: 88%;
     padding-top: 28px;
-    max-height: 420px;
+    max-height: 400px;
+    max-width: 95vw;
 }
 
 .gallery .pics {
@@ -54,7 +54,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 88%
 }
 
 .pic {
