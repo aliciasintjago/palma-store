@@ -57,9 +57,7 @@ const Image = styled.div`
     }
 `
 
-const Container = styled.div`
-    width: 100vw;
-`
+const Container = styled.div``
 
 const WrapperTextOne = styled.div`
     @media (max-width: 1200px) {
