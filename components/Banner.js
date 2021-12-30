@@ -65,7 +65,7 @@ const WrapperTextOne = styled.div``
 
 const WrapperTextTwo = styled.div`
     @media (max-width: 376px) {
-        transform: translateY(-3.5em);
+        transform: translateY(-1.5em);
     }
 `
 
