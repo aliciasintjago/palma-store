@@ -64,7 +64,8 @@ const ButtonGroup = styled.div`
     @media (max-width: 768px) {
         flex-direction: column;
         justify-content: center;
-        margin-top: 40px;
+        padding-top: 40px;
+        padding-right: 30px;
     }
 `
 const Women = styled.div`
