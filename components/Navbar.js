@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import './Navbar.css';
+import styles from '../styles.module.css';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
@@ -22,9 +22,9 @@ export default function Header() {
                 <CloseWrapper>
                     <CustomClose onClick={()=>setBurgerStatus(false)} />
                 </CloseWrapper>
-                <li><a href='/' className='textdecoration'>Women</a></li>
-                <li><a href='/' className='textdecoration'>Pets</a></li>
-                <li><a href='/' className='textdecoration'>Goods</a></li>
+                <li><a href='/' className={styles.textdecoration}>Women</a></li>
+                <li><a href='/' className={styles.textdecoration}>Pets</a></li>
+                <li><a href='/' className={styles.textdecoration}>Goods</a></li>
             </CloseBurgerNav>
             <Logo>
                 <p><a href='/'>PALMA</a></p>
