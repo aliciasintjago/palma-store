@@ -122,6 +122,7 @@ const CloseBurgerNav = styled.div`
             a {
                 font-family: 'Rajdhani', sans-serif;
                 font-weight: 400;
+                font-size: 20px;
                 color: #000000;
                 transition: font-weight .2s ease-in-out;
             }
