@@ -16,7 +16,7 @@ export default function Header() {
                 <p><a href='/goods'>Goods</a></p>
             </NavMenu>
             <OpenBurgerNav>
-                <a href='#' onClick={()=>setBurgerStatus(true)}><MenuIcon /></a>
+                <div onClick={()=>setBurgerStatus(true)}><MenuIcon /></div>
             </OpenBurgerNav>
             <CloseBurgerNav show={burgerStatus}>
                 <CloseWrapper>
@@ -83,16 +83,16 @@ const NavMenu = styled.div`
 const OpenBurgerNav = styled.div`
     display: none;
     @media (max-width: 768px) {
-        display: flex;
-        a {
-            display: flex;
+        display: flex;    
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding: 0 20px;
+        flex-wrap: nowrap;
+        color: #000000;
+        div {
+            display: flex;    
             justify-content: center;
             align-items: center;
-            font-weight: 600;
-            letter-spacing: 1px;
-            padding: 0 20px;
-            flex-wrap: nowrap;
-            color: #000000;
         }   
     }
 `
@@ -164,7 +164,7 @@ const Logo = styled.div`
             display: flex;
             padding-right: 10.7rem;
             width: 150px;
-            transform: translateX(6.2rem);
+            transform: translateX(4.9rem);
         }
     }
 `   
