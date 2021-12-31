@@ -47,6 +47,16 @@
     padding-top: 28px;
 }
 
+.gallery_two {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+
 .gallery .pics {
     transition: all 350ms ease;
     transition: all 350ms ease;
