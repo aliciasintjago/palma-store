@@ -22,9 +22,9 @@ export default function Header() {
                 <CloseWrapper>
                     <CustomClose onClick={()=>setBurgerStatus(false)} />
                 </CloseWrapper>
-                <li><a href='/women' className={styles.textdecoration}>Women</a></li>
-                <li><a href='/petsandowners' className={styles.textdecoration}>Pets</a></li>
-                <li><a href='/goods' className={styles.textdecoration}>Goods</a></li>
+                <li><a href='/' className={styles.textdecoration}>Women</a></li>
+                <li><a href='/' className={styles.textdecoration}>Pets</a></li>
+                <li><a href='/' className={styles.textdecoration}>Goods</a></li>
             </CloseBurgerNav>
             <Logo>
                 <p><a href='/'>PALMA</a></p>
@@ -59,6 +59,7 @@ const NavMenu = styled.div`
     justify-content: start;
     flex: 1;
     padding-left: 20px;
+    width: 300px;
     a {
         font-family: 'Rajdhani', sans-serif;
         font-weight: 400;
@@ -146,6 +147,8 @@ const CloseWrapper = styled.div`
 
 const Logo = styled.div`
     flex: 3 0 auto;
+    width: 300px;
+    
     a {
         text-decoration: none;
         font-family: 'Alike';
@@ -153,7 +156,7 @@ const Logo = styled.div`
         color: #000000; 
         letter-spacing: 3px;
         display: flex;
-        width: 150px;
+        width: 112px;
         transform: translateX(270px);
     }
     @media (max-width: 768px) {
