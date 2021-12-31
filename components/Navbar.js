@@ -23,7 +23,7 @@ export default function Header() {
                     <CustomClose onClick={()=>setBurgerStatus(false)} />
                 </CloseWrapper>
                 <li><a href='/women' className={styles.textdecoration}>Women</a></li>
-                <li><a href='/pets' className={styles.textdecoration}>Pets</a></li>
+                <li><a href='/petsandowners' className={styles.textdecoration}>Pets</a></li>
                 <li><a href='/goods' className={styles.textdecoration}>Goods</a></li>
             </CloseBurgerNav>
             <Logo>
