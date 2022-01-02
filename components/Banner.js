@@ -17,23 +17,25 @@ export default function Banner() {
                         <div className={styles.text2}>Attention</div>
                     </Fade>
                 </WrapperTextTwo>
-                <ButtonGroup>
-                    <a href='/women' className={styles.button}>
-                        <Women>
-                            <p><a href='/women'>Shop Women</a></p>
-                        </Women>
-                    </a>
-                    <a href='/petsandowners' className={styles.button}>
-                        <Pets>
-                            <p><a href='/petsandowners'>Shop Pets</a></p>
-                        </Pets>
-                    </a>
-                    <a href='/goods' className={styles.button}>
-                        <Goods>
-                            <p><a href='/goods'>Shop Goods</a></p>
-                        </Goods>
-                    </a>
-                </ButtonGroup>
+                <WrapperButtons>
+                    <ButtonGroup>
+                        <a href='/women' className={styles.button}>
+                            <Women>
+                                <p><a href='/women'>Shop Women</a></p>
+                            </Women>
+                        </a>
+                        <a href='/petsandowners' className={styles.button}>
+                            <Pets>
+                                <p><a href='/petsandowners'>Shop Pets</a></p>
+                            </Pets>
+                        </a>
+                        <a href='/goods' className={styles.button}>
+                            <Goods>
+                                <p><a href='/goods'>Shop Goods</a></p>
+                            </Goods>
+                        </a>
+                    </ButtonGroup>
+                </WrapperButtons>
             </Image>
         </Container>
     )
@@ -71,53 +73,28 @@ const WrapperTextTwo = styled.div`
     }
 `
 
+const WrapperButtons = styled.div`
+    display: grid;
+    place-items: center;
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+`
+
 const ButtonGroup = styled.div`
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
     text-align: center;
-    justify-content: center;
-    align-items: center;
     top: 55%;
-    left: 20%;
     position: absolute;
-    @media (max-width: 1024px) {
-        display: grid;
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-        place-items: center;
-        transform: translateX(15em);
-    }
-    @media (max-width: 928px) {
-        display: grid;
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-        place-items: center;
-        transform: translateX(12em);
-    }
-    @media (max-width: 736px) {
-        display: grid;
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-        place-items: center;
-        transform: translateX(9.5em);
-    }
-    @media (max-width: 448px) {
-        display: grid;
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-        place-items: center;
-        transform: translateX(6em);
-    }
-    @media (max-width: 376px) {
-        display: grid;
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-        place-items: center;
-        transform: translateX(-1.6em);
+    margin: 0 auto;
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 `
 const Women = styled.div`
