@@ -74,25 +74,20 @@
     padding-bottom: 20px;
     padding-right: 12px;
     object-fit: cover;
-    @media (max-width: 768px) {
-        padding-right: 0;
-    }  
 }
 
-@media (max-width: 874px) {
+@media (max-width: 1000px) {
     .gallery {
         -webkit-column-count: 2;
         -moz-column-count: 2;
         column-count: 2;
     }
     .pic {
-        height: 350px;
-        width: 310px;
-        padding-right: 10px;
+        padding-right: 12px;
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     .gallery {    
         -webkit-column-count: 1;
         -moz-column-count: 1;
@@ -102,8 +97,10 @@
         column-width: 100%;
     }
     .pic {
-        height: 370px;
-        width: 333px;
+        height: 350px;
+        width: 310px;
+        padding-right: 0;
+        margin: 0 auto;
     }    
 }
 
