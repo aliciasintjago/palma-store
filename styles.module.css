@@ -73,7 +73,11 @@
     height: 310px;
     padding-bottom: 20px;
     padding-right: 12px;
-    object-fit: cover;  
+    object-fit: cover;
+    @media (max-width: 768px) {
+        padding-right: 0;
+    }  
+}
 }
 
 @media (max-width: 874px) {
